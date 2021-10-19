@@ -1,0 +1,18 @@
+.container{
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.contact{
+    height: 100vh;
+    background-color: darkslateblue;
+}
+.title{
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+}

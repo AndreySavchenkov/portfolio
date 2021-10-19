@@ -5,13 +5,22 @@
 .container {
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
-
 .title {
 
 }
-
 .worksContainer {
     border: 1px solid;
     background-color: dimgrey;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 750px) {
+    .worksContainer{
+        justify-content: center;
+    }
 }

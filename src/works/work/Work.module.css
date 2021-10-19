@@ -1,3 +1,12 @@
 .work{
+    background-color: cadetblue;
 
+}
+.image{
+    width: 300px;
+    height: 300px;
+    background-color: #4b4443;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

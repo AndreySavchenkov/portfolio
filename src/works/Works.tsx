@@ -9,8 +9,8 @@ export const Works = () => {
             <div className={`${styleContainer.container} ${style.container}`}>
                 <h3 className={style.title}>Мои работы</h3>
                 <div className={style.worksContainer}>
-                    <Work title={'Работа1'} text={'некое описиние первой работы'}/>
-                    <Work title={'Работа2'} text={'некое описиние второй работы'}/>
+                    <Work title={'Работа1'} text={'некое описиние первой работы'} link={'#'}/>
+                    <Work title={'Работа2'} text={'некое описиние второй работы'} link={'#'}/>
                 </div>
             </div>
         </div>
