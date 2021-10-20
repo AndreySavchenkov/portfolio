@@ -3,7 +3,7 @@ import style from './Nav.module.css'
 
 export const Nav = () => {
 
-    return(
+    return (
         <div className={style.nav}>
             <a href="">Главная</a>
             <a href="">Скилы</a>

@@ -4,7 +4,7 @@ import {Nav} from "../nav/Nav";
 
 export const Header = () => {
 
-    return(
+    return (
         <div className={style.header}>
             <Nav/>
         </div>
