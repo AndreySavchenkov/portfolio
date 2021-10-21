@@ -10,9 +10,9 @@ export const Contact = () => {
                 <form action="" className={style.form}>
                     <input type="text"/>
                     <input type="text"/>
-                    <input type="text"/>
+                    <textarea/>
                 </form>
-                <button>Отправить</button>
+                <button type='submit'>Отправить</button>
             </div>
         </div>
     )
