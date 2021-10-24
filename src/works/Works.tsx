@@ -7,7 +7,9 @@ export const Works = () => {
     return (
         <div className={style.works}>
             <div className={`${styleContainer.container} ${style.container}`}>
-                <h3 className={style.title}>Мои работы</h3>
+                <div className={style.title}>
+                    <h2>Projects</h2>
+                </div>
                 <div className={style.worksContainer}>
                     <Work title={'Работа1'} text={'некое описиние первой работы'} link={'#'}/>
                     <Work title={'Работа2'} text={'некое описиние второй работы'} link={'#'}/>
