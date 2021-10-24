@@ -13,7 +13,7 @@ export const Contact = () => {
                     <input type="text"/>
                     <textarea/>
                 </form>
-                <button type='submit'>Отправить</button>
+                <button type='submit'>Send</button>
             </div>
         </div>
     )

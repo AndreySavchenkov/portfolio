@@ -1,5 +1,6 @@
 import React from "react";
-import style from './Title.module.css'
+import commonStyle from './../../../common/styles/Container.module.css';
+import style from './Title.module.css';
 
 type TitleType = {
     text: string

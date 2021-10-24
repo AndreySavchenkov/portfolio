@@ -9,16 +9,15 @@
 }
 
 .worksContainer {
-    border: 1px solid;
-    background-color: dimgrey;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 30px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1260px) {
     .worksContainer {
         justify-content: center;
     }
