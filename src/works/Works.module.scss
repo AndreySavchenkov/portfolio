@@ -1,0 +1,23 @@
+.works {
+  background-color: white;
+
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    .worksContainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      @media screen and (max-width: 1260px) {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+

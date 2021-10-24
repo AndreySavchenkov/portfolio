@@ -1,14 +1,9 @@
 .title {
-    margin: 0 0 30px;
-    font-size: 28px;
-    position: relative;
-}
+  margin: 0 0 30px;
+  font-size: 28px;
+  position: relative;
 
-.title h2 {
-    margin: 0;
-}
-
-.title::before {
+  ::before {
     position: absolute;
     content: '';
     width: 70px;
@@ -17,4 +12,12 @@
     bottom: -30px;
     left: 50%;
     transform: translate(-50%, 50%);
+  }
+
+  h2 {
+    margin: 0;
+  }
 }
+
+
+
