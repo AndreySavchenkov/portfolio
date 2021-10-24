@@ -1,24 +1,12 @@
 .works {
     background-color: white;
 }
+
 .container {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: nowrap;
 }
-.title {
-    margin: 0 0 30px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.2;
-    letter-spacing: 3px;
-}
-.title h2 {
-    margin: 0;
-}
-
-
 
 .worksContainer {
     border: 1px solid;
@@ -27,10 +15,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 750px) {
-    .worksContainer{
+    .worksContainer {
         justify-content: center;
     }
 }
