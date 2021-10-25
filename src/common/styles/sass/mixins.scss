@@ -1,0 +1,16 @@
+@import './variables';
+
+@mixin text($fontFamily, $fontSize, $lineHeight, $fontWeight, $color) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $color;
+  font-weight: $fontWeight;
+}
+
+@mixin bcgImageCenter() {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
