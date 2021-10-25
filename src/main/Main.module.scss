@@ -1,17 +1,33 @@
+@import './../common/styles/sass/mixins';
+@import './../common/styles/sass/variables';
+
 .mainBlock {
   height: 100vh;
-  background-color: lightslategray;
+  background-color: $mainColor;
 
   .text {
     width: 300px;
-    background-color: #6b6b6b;
+
+    span {
+      @include text($titleFontFamily, 28px, 1.8, 600, $secondColor);
+    }
+
+    h1 {
+      @include text($titleFontFamily, 48px, 1.2, 600, $thirdColor);
+    }
+
+    p {
+      @include text($titleFontFamily, 28px, 1.8, 600, $secondColor);
+    }
 
   }
 
   .photo {
     width: 300px;
     height: 400px;
-    background-color: #6b6b6b;
+    @include bcgImageCenter();
+    border-radius: 15%;
+    box-shadow: 12px 14px 18px 5px rgba(0, 0, 0, .6);
   }
 }
 
