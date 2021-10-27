@@ -1,7 +1,12 @@
+@import "./../common/styles/sass/variables";
+
 .header {
-    height: 80px;
-    background-color: #89b6b6;
+    background-color: $mainColor;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 50px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }

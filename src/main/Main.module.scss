@@ -5,29 +5,57 @@
   height: 100vh;
   background-color: $mainColor;
 
-  .text {
-    width: 300px;
+  .container {
+    justify-content: space-evenly;
 
-    span {
-      @include text($titleFontFamily, 28px, 1.8, 600, $secondColor);
+    .text {
+      width: 300px;
+
+      span {
+        @include text($titleFontFamily, 28px, 1.8, 600, $secondColor);
+      }
+
+      h1 {
+        @include text($titleFontFamily, 48px, 1.2, 600, $thirdColor);
+      }
+
+      p {
+        @include text($titleFontFamily, 28px, 1.8, 600, $secondColor);
+      }
+
+      @media screen and(max-width: 750px) {
+        text-align: center;
+      }
+
     }
 
-    h1 {
-      @include text($titleFontFamily, 48px, 1.2, 600, $thirdColor);
+    .photo {
+      width: 800px;
+      height: 800px;
+      @include bcgImageCenter();
+      background-position: top;
+      border-radius: 50%;
+      @media screen and(max-width: 1800px) {
+        width: 600px;
+        height: 600px;
+      }
+      @media screen and(max-width: 1200px) {
+        width: 400px;
+        height: 400px;
+      }
+      @media screen and(max-width: 900px) {
+        width: 300px;
+        height: 300px;
+      }
+      @media screen and(max-width: 390px) {
+        width: 250px;
+        height: 250px;
+      }
+    }
+    @media screen and(max-width: 750px){
+      flex-direction: column;
     }
 
-    p {
-      @include text($titleFontFamily, 28px, 1.8, 600, $secondColor);
-    }
-
-  }
-
-  .photo {
-    width: 300px;
-    height: 400px;
-    @include bcgImageCenter();
-    border-radius: 15%;
-    box-shadow: 12px 14px 18px 5px rgba(0, 0, 0, .6);
   }
 }
 
