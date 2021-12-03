@@ -9,7 +9,10 @@
   .icon {
     width: 60px;
     height: 60px;
-    background-color: coral;
+    img {
+      width: 80px;
+      height: 80px;
+    }
   }
 }
 
