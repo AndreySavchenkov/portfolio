@@ -2,7 +2,7 @@
 @import "./../common/styles/sass/variables";
 
 .footer {
-  background-color: darkkhaki;
+  background-color: $mainColor;
 
   .container {
     flex-direction: column;
