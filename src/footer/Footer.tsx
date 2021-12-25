@@ -13,7 +13,7 @@ export const Footer = () => {
                     <div className={style.item}></div>
                     <div className={style.item}></div>
                 </div>
-                <span>2021(c) Все права защищены</span>
+                <span>2021(c)Все права защищены</span>
             </div>
         </div>
     )
