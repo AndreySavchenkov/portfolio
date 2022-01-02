@@ -9,12 +9,16 @@ import yesNo from './../assets/image/yes-no.jpg'
 
 export const Works = () => {
 
-    const todoList = {
+    const todoListBackground = {
         backgroundImage: `url(${todoImage})`,
     }
 
-    const social = {
+    const socialBackground = {
         backgroundImage: `url(${socialImage})`,
+    }
+
+    const yesNoMaybeBackground = {
+        backgroundImage: `url(${yesNo}`,
     }
 
     return (
@@ -23,15 +27,15 @@ export const Works = () => {
                 <Title text={'Projects'}/>
                 <div className={style.worksContainer}>
                     <Work link={'https://andreysavchenkov.github.io/Social-Network/'}
-                          style={social}
+                          style={socialBackground}
                           title={'Social Network'}
                           text={'HTML, SCSS, React, TypeScript, Redux, Axios, REST API, Formik'}/>
                     <Work link={'https://andreysavchenkov.github.io/ToDoMain/'}
-                          style={todoList}
+                          style={todoListBackground}
                           title={'ToDo List'}
                           text={'HTML, SCSS, React, TypeScript, Redux, Axios, REST API, MaterialUI, Formik'}/>
                     <Work link={'https://andreysavchenkov.github.io/YesNoMaybe/'}
-                          style={yesNo}
+                          style={yesNoMaybeBackground}
                           title={'Yes-No-Maybe ;)'}
                           text={'HTML, MaterialUI, React, TypeScript, Axios, REST API'}/>
                 </div>

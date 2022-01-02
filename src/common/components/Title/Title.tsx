@@ -1,5 +1,4 @@
 import React from "react";
-import commonStyle from './../../../common/styles/Container.module.css';
 import style from './Title.module.scss';
 
 type TitleType = {
