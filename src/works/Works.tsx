@@ -6,6 +6,7 @@ import {Title} from "../common/components/Title/Title";
 import todoImage from './../assets/image/toDoList.jpg'
 import socialImage from './../assets/image/socialNetwork.jpg'
 import yesNo from './../assets/image/yes-no.jpg'
+import counter from './../assets/image/counter.jpg'
 
 export const Works = () => {
 
@@ -19,6 +20,10 @@ export const Works = () => {
 
     const yesNoMaybeBackground = {
         backgroundImage: `url(${yesNo}`,
+    }
+
+    const counterBackground = {
+        backgroundImage: `url(${counter}`,
     }
 
     return (
@@ -38,6 +43,10 @@ export const Works = () => {
                           style={yesNoMaybeBackground}
                           title={'Yes-No-Maybe ;)'}
                           text={'HTML, MaterialUI, React, TypeScript, Axios, REST API'}/>
+                    <Work link={'https://andreysavchenkov.github.io/test_app_deploy/'}
+                          style={counterBackground}
+                          title={'Counter'}
+                          text={'HTML, CSS, React, TypeScript'}/>
                 </div>
             </div>
         </div>

@@ -12,17 +12,30 @@
     }
 
     .items {
+      margin-bottom: 40px;
+      margin-top: 40px;
       display: flex;
       justify-content: space-between;
-      width: 400px;
+      width: 600px;
+      @media(max-width: 960px) {
+        width: 500px;
+      }
+      @media(max-width: 770px) {
+        width: 400px;
+      }
+      @media(max-width: 650px) {
+        width: 350px;
+      }
       @media (max-width: 510px) {
-        width: 200px;
+        width: 250px;
       }
 
       .item {
         width: 40px;
         height: 40px;
-        background-color: #6b6b6b;
+        .icon{
+          width: 40px
+        }
       }
     }
   }
