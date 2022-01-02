@@ -40,6 +40,10 @@
 
   .textContainer {
     padding: 25px 20px;
+    max-width:450px;
+    @media screen and (max-width: 650px) {
+      max-width: 225px;
+    }
 
     .projectTitle {
       @include text($titleFontFamily, 16px, 1.2, 500, $mainColor);
