@@ -10,9 +10,14 @@
     height: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     @include bcgImageCenter();
     position: relative;
+    a {
+
+      font-size: 20px;
+      text-decoration: none;
+    }
 
     &::before {
       content: '';
@@ -32,9 +37,11 @@
     .viewBtn {
       position: relative;
       z-index: 1;
-      padding: 5px 20px;
+      padding: 10px 30px;
       background-color: $thirdColor;
       color: $mainColor;
+      font-size: 20px;
+      text-decoration: none;
     }
   }
 
