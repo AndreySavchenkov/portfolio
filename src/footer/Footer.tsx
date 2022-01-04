@@ -9,7 +9,7 @@ import telegramIcon from './../assets/social-icon/telegram.png'
 
 export const Footer = () => {
     return (
-        <div className={style.footer}>
+        <div id={'footer'} className={style.footer}>
             <div className={`${containerStyle.container} ${style.container}`}>
                 <h3 className={style.title}>Andrey Savchenkov</h3>
                 <div className={style.items}>

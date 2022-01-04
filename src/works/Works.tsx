@@ -27,7 +27,7 @@ export const Works = () => {
     }
 
     return (
-        <div className={style.works}>
+        <div id='projects' className={style.works}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <Title text={'Projects'}/>
                 <div className={style.worksContainer}>

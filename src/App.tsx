@@ -3,8 +3,8 @@ import {Header} from "./header/Header";
 import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {Works} from "./works/Works";
-import {Contact} from "./contact/Contact";
 import {Footer} from "./footer/Footer";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
     return (
@@ -13,7 +13,6 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
-            {/*<Contact/>*/}
             <Footer/>
         </div>
     );
