@@ -9,6 +9,11 @@
     a{
         text-decoration: none;
         @include text($titleFontFamily, 18px, 1.2, 600, $secondColor);
+        border-bottom: 2px solid $mainColor;
+        padding-bottom: 5px;
+        &:hover{
+            border-bottom: 2px solid $secondColor;
+        }
     }
     @media screen and (max-width: 440px) {
         width: 300px;

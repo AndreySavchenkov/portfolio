@@ -11,7 +11,7 @@ export const Footer = () => {
     return (
         <div id={'footer'} className={style.footer}>
             <div className={`${containerStyle.container} ${style.container}`}>
-                <h3 className={style.title}>Andrey Savchenkov</h3>
+                {/*<h3 className={style.title}>Andrey Savchenkov</h3>*/}
                 <div className={style.items}>
                     <a className={style.item} target='_blank' href='https://www.instagram.com/savchenkov_andrey1/'>
                         <img className={style.icon} src={instagramIcon} alt="instagram"/>
@@ -29,7 +29,7 @@ export const Footer = () => {
                         <img className={style.icon} src={telegramIcon} alt="telegram"/>
                     </a>
                 </div>
-                <span>2021(c)Все права защищены</span>
+                <span>2022Ⓒ All rights reserved</span>
             </div>
         </div>
     )

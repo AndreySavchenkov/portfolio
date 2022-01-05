@@ -1,0 +1,21 @@
+@import '../common/styles/sass/variables';
+@import '../common/styles/sass/mixins';
+
+.cvContainer {
+  a {
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    @include text($titleFontFamily, 28px, 1.2, 500, $mainColor);
+    background-color: $secondColor;
+    &:hover{
+      background-color: $mainColor;
+      color: $secondColor;
+      border: 1px solid $secondColor;
+    }
+  }
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }

@@ -2,7 +2,7 @@ import React from "react";
 import containerStyle from './../common/styles/Container.module.css';
 import style from './Contact.module.scss';
 import {Title} from "../common/components/Title/Title";
-import {ErrorMessage, Field, Form, Formik} from "formik";
+
 
 
 export const Contact = () => {
