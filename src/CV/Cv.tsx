@@ -10,7 +10,7 @@ export const Cv = () => {
     return(
         <div className={style.cvContainer}>
 
-            <a href={"./../../public/AndrewCV.pdf"} target={'_blank'} download={'AndrewCV.pdf'}>Download My CV</a>
+            <a href={"https://drive.google.com/file/d/1G6j8WAjWTV3WireJP0QOX-7T2WKuVnUh/view?usp=sharing"} target={'_blank'} download={'AndrewCV.pdf'}>Download My CV</a>
         </div>
     )
 }
