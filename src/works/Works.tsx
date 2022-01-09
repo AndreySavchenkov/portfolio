@@ -34,7 +34,7 @@ export const Works = () => {
                     <Work link={'https://andreysavchenkov.github.io/Social-Network/'}
                           linkCode={'https://github.com/AndreySavchenkov/Social-Network'}
                           style={socialBackground}
-                          title={'Social Network'}
+                          title={'Social Network (IN PROGRESS)'}
                           text={'HTML, SCSS, React, TypeScript, Redux, Axios, REST API, Formik'}/>
                     <Work link={'https://andreysavchenkov.github.io/ToDoMain/'}
                           linkCode={'https://github.com/AndreySavchenkov/ToDoMain'}
