@@ -4,6 +4,15 @@
 .mainBlock {
   height: 100vh;
   background-color: $mainColor;
+  position: relative;
+
+  .particles{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 
   .container {
     justify-content: space-evenly;
@@ -30,11 +39,14 @@
     }
 
     .photo {
-      width: 800px;
-      height: 800px;
+      position: relative;
+      width: 600px;
+      height: 600px;
       @include bcgImageCenter();
       background-position: top;
       border-radius: 50%;
+      border: 5px solid $thirdColor;
+
       @media screen and(max-width: 1800px) {
         width: 600px;
         height: 600px;

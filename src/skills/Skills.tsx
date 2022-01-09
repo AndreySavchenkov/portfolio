@@ -7,31 +7,35 @@ import reactIcon from './../assets/skill-icon/react-seeklogo.com.svg'
 import typescriptIcon from './../assets/skill-icon/typescript-seeklogo.com.svg'
 import javascriptIcon from './../assets/skill-icon/javascript-js-seeklogo.com.svg'
 import scssIcon from './../assets/skill-icon/sass-seeklogo.com.svg'
+import {Slide} from "react-awesome-reveal";
 
 export const Skills = () => {
     return (
-        <div id='skills' className={style.skillsBlock}>
-            <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <Title text={'Skills'}/>
-                <div className={style.skills}>
-                    <Skill title={'React'}
-                           iconPath={reactIcon}
-                           iconAlt={'icon for React'}
-                           description={'A JavaScript library for building user interfaces'}/>
-                    <Skill title={'Typescript'}
-                           iconPath={typescriptIcon}
-                           iconAlt={'icon for Typescript'}
-                           description={'TypeScript is a strongly typed programming language that builds on JavaScript.'}/>
-                    <Skill title={'JavaScript'}
-                           iconPath={javascriptIcon}
-                           iconAlt={'icon for Javascript'}
-                           description={'Multiparadigm programming language.'}/>
-                    <Skill title={'SCSS'}
-                           iconPath={scssIcon}
-                           iconAlt={'icon for SCSS'}
-                           description={'Syntactically Awesome Stylesheet'}/>
+        <Slide duration={3000}>
+            <div id='skills' className={style.skillsBlock}>
+                <div className={`${styleContainer.container} ${style.skillsContainer}`}>
+                    <Title text={'Skills'}/>
+                    <div className={style.skills}>
+                        <Skill title={'React'}
+                               iconPath={reactIcon}
+                               iconAlt={'icon for React'}
+                               description={'A JavaScript library for building user interfaces'}/>
+                        <Skill title={'Typescript'}
+                               iconPath={typescriptIcon}
+                               iconAlt={'icon for Typescript'}
+                               description={'TypeScript is a strongly typed programming language that builds on JavaScript.'}/>
+                        <Skill title={'JavaScript'}
+                               iconPath={javascriptIcon}
+                               iconAlt={'icon for Javascript'}
+                               description={'Multiparadigm programming language.'}/>
+                        <Skill title={'SCSS'}
+                               iconPath={scssIcon}
+                               iconAlt={'icon for SCSS'}
+                               description={'Syntactically Awesome Stylesheet'}/>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Slide>
+
     )
 }
