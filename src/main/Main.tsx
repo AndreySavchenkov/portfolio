@@ -1,6 +1,6 @@
 import React from "react";
 import style from './Main.module.scss'
-import styleContainer from './../common/styles/Container.module.css'
+import styleContainer from '../common/styles/Container.module.scss'
 import myPhoto from "../assets/image/myPhoto.jpg";
 
 
@@ -16,7 +16,7 @@ export const Main = () => {
                 <div className={style.text}>
                     <span>Hi There!</span>
                     <h1>I'm Andrey Savchenkov</h1>
-                    <p>Frontend Developer</p>
+                    <p>Front-End Developer</p>
                 </div>
                 <div className={style.photo} style={backgroundPhoto}>
 

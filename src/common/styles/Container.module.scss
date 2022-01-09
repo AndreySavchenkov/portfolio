@@ -1,5 +1,4 @@
 .container {
-    /*border: 1px solid;*/
     width: 80%;
     height: 100%;
     margin: 0 auto;
@@ -7,4 +6,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    @media screen and (max-width: 450px) {
+        width: 100%;
+    }
 }

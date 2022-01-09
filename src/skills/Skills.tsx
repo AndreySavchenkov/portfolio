@@ -1,5 +1,5 @@
 import React from "react";
-import styleContainer from './../common/styles/Container.module.css';
+import styleContainer from '../common/styles/Container.module.scss';
 import style from './Skills.module.scss'
 import {Skill} from "./skill/Skill";
 import {Title} from "../common/components/Title/Title";

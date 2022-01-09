@@ -1,5 +1,5 @@
 import React from "react";
-import containerStyle from './../common/styles/Container.module.css';
+import containerStyle from '../common/styles/Container.module.scss';
 import style from './Footer.module.scss';
 import instagramIcon from './../assets/social-icon/instagram.png'
 import linkedInIcon from './../assets/social-icon/linkedin.png'

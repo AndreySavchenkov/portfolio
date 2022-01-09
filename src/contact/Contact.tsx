@@ -1,5 +1,5 @@
 import React from "react";
-import containerStyle from './../common/styles/Container.module.css';
+import containerStyle from '../common/styles/Container.module.scss';
 import style from './Contact.module.scss';
 import {Title} from "../common/components/Title/Title";
 

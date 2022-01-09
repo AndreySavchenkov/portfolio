@@ -12,8 +12,11 @@
         border-bottom: 2px solid $mainColor;
         padding-bottom: 5px;
         &:hover{
-            border-bottom: 2px solid $secondColor;
+            color: $thirdColor;
+            border-color: $thirdColor;
+            transition: all 0.5s ease-in-out 0s;
         }
+
     }
     @media screen and (max-width: 440px) {
         width: 300px;
