@@ -6,11 +6,13 @@ import {Zoom} from "react-awesome-reveal";
 export const Header = () => {
 
     return (
-        <Zoom duration={3000}>
-            <div className={style.header}>
+
+        <div className={style.header}>
+            <Zoom duration={3000}>
                 <Nav/>
-            </div>
-        </Zoom>
+            </Zoom>
+        </div>
+
 
     )
 }

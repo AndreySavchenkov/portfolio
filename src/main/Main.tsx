@@ -12,7 +12,7 @@ export const Main = () => {
     }
 
     return (
-<Slide duration={3000}>
+<Slide duration={2000}>
     <div id="main" className={style.mainBlock}>
         <div className={`${styleContainer.container} ${style.container}`}>
             <div className={style.text}>

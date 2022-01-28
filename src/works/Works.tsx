@@ -7,28 +7,21 @@ import todoImage from './../assets/image/toDoList.jpg'
 import socialImage from './../assets/image/socialNetwork.jpg'
 import yesNo from './../assets/image/yes-no.jpg'
 import counter from './../assets/image/counter.jpg'
+import newsApp from './../assets/image/newsApp.jpg'
+import table from './../assets/image/table.jpg'
 import {Slide} from "react-awesome-reveal";
 
 export const Works = () => {
 
-    const todoListBackground = {
-        backgroundImage: `url(${todoImage})`,
-    }
-
-    const socialBackground = {
-        backgroundImage: `url(${socialImage})`,
-    }
-
-    const yesNoMaybeBackground = {
-        backgroundImage: `url(${yesNo}`,
-    }
-
-    const counterBackground = {
-        backgroundImage: `url(${counter}`,
-    }
+    const todoListBackground = {backgroundImage: `url(${todoImage})`,}
+    const socialBackground = {backgroundImage: `url(${socialImage})`,}
+    const yesNoMaybeBackground = {backgroundImage: `url(${yesNo}`,}
+    const counterBackground = {backgroundImage: `url(${counter}`,}
+    const newsBackground = {backgroundImage: `url(${newsApp}`,}
+    const tableBackground = {backgroundImage: `url(${table}`,}
 
     return (
-        <Slide duration={3000}>
+        <Slide duration={2000}>
             <div id='projects' className={style.works}>
                 <div className={`${styleContainer.container} ${style.container}`}>
                     <Title text={'Projects'}/>
@@ -53,6 +46,16 @@ export const Works = () => {
                               style={counterBackground}
                               title={'Counter'}
                               text={'HTML, CSS, React, TypeScript'}/>
+                        <Work link={'https://andreysavchenkov.github.io/news/'}
+                              linkCode={'https://github.com/AndreySavchenkov/news'}
+                              style={newsBackground}
+                              title={'News App'}
+                              text={'React, Redux, TypeScript, RouterDom, SCSS, Formik '}/>
+                        <Work link={'https://andreysavchenkov.github.io/table/'}
+                              linkCode={'https://github.com/AndreySavchenkov/table'}
+                              style={tableBackground}
+                              title={'Custom Table'}
+                              text={'React, Redux, TypeScript, SCSS'}/>
                     </div>
                 </div>
             </div>
