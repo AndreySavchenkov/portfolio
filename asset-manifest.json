@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.5260cfe2.chunk.css",
-    "main.js": "/portfolio/static/js/main.656ca081.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.656ca081.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.3b1be74b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3b1be74b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.74e7b9a2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.74e7b9a2.js.map",
     "static/js/2.dbc4a972.chunk.js": "/portfolio/static/js/2.dbc4a972.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/table.60f0e6fd.jpg": "/portfolio/static/media/table.60f0e6fd.jpg",
     "static/media/telegram.f677c7c2.png": "/portfolio/static/media/telegram.f677c7c2.png",
     "static/media/toDoList.dbf6547f.jpg": "/portfolio/static/media/toDoList.dbf6547f.jpg",
+    "static/media/trello.92e8e9e6.jpg": "/portfolio/static/media/trello.92e8e9e6.jpg",
     "static/media/typescript-seeklogo.com.17d5e87e.svg": "/portfolio/static/media/typescript-seeklogo.com.17d5e87e.svg",
     "static/media/yes-no.35de809d.jpg": "/portfolio/static/media/yes-no.35de809d.jpg"
   },
@@ -32,6 +33,6 @@
     "static/js/runtime-main.74e7b9a2.js",
     "static/js/2.dbc4a972.chunk.js",
     "static/css/main.5260cfe2.chunk.css",
-    "static/js/main.656ca081.chunk.js"
+    "static/js/main.3b1be74b.chunk.js"
   ]
 }
