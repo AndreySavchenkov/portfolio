@@ -1,14 +1,15 @@
 import React from "react";
-import style from './Works.module.scss'
-import {Work} from "./work/Work";
-import styleContainer from '../common/styles/Container.module.scss'
-import {Title} from "../common/components/Title/Title";
-import todoImage from './../assets/image/toDoList.jpg'
-import socialImage from './../assets/image/socialNetwork.jpg'
-import yesNo from './../assets/image/yes-no.jpg'
-import counter from './../assets/image/counter.jpg'
-import newsApp from './../assets/image/newsApp.jpg'
-import table from './../assets/image/table.jpg'
+import style from "works/Works.module.scss"
+import {Work} from "works/work/Work";
+import styleContainer from 'common/styles/Container.module.scss'
+import {Title} from "common/components/Title/Title";
+import todoImage from 'assets/image/toDoList.jpg'
+import socialImage from 'assets/image/socialNetwork.jpg'
+import yesNo from 'assets/image/yes-no.jpg'
+import counter from 'assets/image/counter.jpg'
+import newsApp from 'assets/image/newsApp.jpg'
+import table from 'assets/image/table.jpg'
+import trello from 'assets/image/trello.jpg'
 import {Slide} from "react-awesome-reveal";
 
 export const Works = () => {
@@ -19,6 +20,7 @@ export const Works = () => {
     const counterBackground = {backgroundImage: `url(${counter}`,}
     const newsBackground = {backgroundImage: `url(${newsApp}`,}
     const tableBackground = {backgroundImage: `url(${table}`,}
+    const trelloBackground = {backgroundImage: `url(${trello}`,}
 
     return (
         <Slide duration={2000}>
@@ -26,6 +28,11 @@ export const Works = () => {
                 <div className={`${styleContainer.container} ${style.container}`}>
                     <Title text={'Projects'}/>
                     <div className={style.worksContainer}>
+                        <Work link={'https://andreysavchenkov.github.io/trello/'}
+                              linkCode={'https://github.com/AndreySavchenkov/trello'}
+                              style={trelloBackground}
+                              title={'Custom Trello'}
+                              text={'React, TypeScript, Redux-Toolkit, Styled Components, Redux-persist'}/>
                         <Work link={'https://andreysavchenkov.github.io/Social-Network/'}
                               linkCode={'https://github.com/AndreySavchenkov/Social-Network'}
                               style={socialBackground}

@@ -1,7 +1,7 @@
 import React from "react";
 import style from './Main.module.scss'
-import styleContainer from '../common/styles/Container.module.scss'
-import myPhoto from "../assets/image/myPhoto.jpg";
+import styleContainer from 'common/styles/Container.module.scss'
+import myPhoto from "assets/image/myPhoto.jpg";
 import {Slide} from "react-awesome-reveal";
 
 

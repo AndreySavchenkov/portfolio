@@ -1,5 +1,5 @@
 import React from "react";
-import style from './Cv.module.scss';
+import style from 'CV/Cv.module.scss';
 import {JackInTheBox} from "react-awesome-reveal";
 
 

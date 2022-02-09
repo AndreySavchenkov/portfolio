@@ -1,13 +1,13 @@
 import React from "react";
-import styleContainer from '../common/styles/Container.module.scss';
+import styleContainer from 'common/styles/Container.module.scss';
 import style from './Skills.module.scss'
 import {Skill} from "./skill/Skill";
-import {Title} from "../common/components/Title/Title";
-import reactIcon from './../assets/skill-icon/react-seeklogo.com.svg'
-import typescriptIcon from './../assets/skill-icon/typescript-seeklogo.com.svg'
-import javascriptIcon from './../assets/skill-icon/javascript-js-seeklogo.com.svg'
-import scssIcon from './../assets/skill-icon/sass-seeklogo.com.svg'
-import reduxIcon from './../assets/skill-icon/icons8-redux.svg'
+import {Title} from "common/components/Title/Title";
+import reactIcon from 'assets/skill-icon/react-seeklogo.com.svg'
+import typescriptIcon from 'assets/skill-icon/typescript-seeklogo.com.svg'
+import javascriptIcon from 'assets/skill-icon/javascript-js-seeklogo.com.svg'
+import scssIcon from 'assets/skill-icon/sass-seeklogo.com.svg'
+import reduxIcon from 'assets/skill-icon/icons8-redux.svg'
 import {Slide} from "react-awesome-reveal";
 
 export const Skills = () => {
