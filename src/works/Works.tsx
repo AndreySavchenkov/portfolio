@@ -9,7 +9,8 @@ import yesNo from 'assets/image/yes-no.jpg'
 import counter from 'assets/image/counter.jpg'
 import newsApp from 'assets/image/newsApp.jpg'
 import table from 'assets/image/table.jpg'
-import trello from 'assets/image/trello.jpg'
+import trello from 'assets/image/trello.jpg';
+import prayer from 'assets/image/prayer.jpg'
 import {Slide} from "react-awesome-reveal";
 
 export const Works = () => {
@@ -21,6 +22,7 @@ export const Works = () => {
     const newsBackground = {backgroundImage: `url(${newsApp}`,}
     const tableBackground = {backgroundImage: `url(${table}`,}
     const trelloBackground = {backgroundImage: `url(${trello}`,}
+    const prayerBackground = {backgroundImage: `url(${prayer}`,}
 
     return (
         <Slide duration={2000}>
@@ -28,6 +30,11 @@ export const Works = () => {
                 <div className={`${styleContainer.container} ${style.container}`}>
                     <Title text={'Projects'}/>
                     <div className={style.worksContainer}>
+                        <Work link={'https://www.youtube.com/watch?v=L2DFIVYFUcM'}
+                              linkCode={'https://github.com/AndreySavchenkov/Prayer'}
+                              style={prayerBackground}
+                              title={'PrayerX'}
+                              text={'React-Native, TypeScript, Redux-Toolkit, Redux-Saga, Redux-persist, React Navigation'}/>
                         <Work link={'https://andreysavchenkov.github.io/trello/'}
                               linkCode={'https://github.com/AndreySavchenkov/trello'}
                               style={trelloBackground}

@@ -72,6 +72,11 @@
 
     .text {
       @include text($textFontFamily, 12px, 1.8, 400, $mainColor);
+      .textTechnologies {
+        padding-left: 10px;
+        font-weight: 500;
+        font-size: 14px;
+      }
     }
   }
   @media screen and (max-width: 450px) {
