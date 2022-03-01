@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5260cfe2.chunk.css",
-    "main.js": "/portfolio/static/js/main.3b1be74b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.3b1be74b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bfdfa76b.chunk.css",
+    "main.js": "/portfolio/static/js/main.f3aeb610.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f3aeb610.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.74e7b9a2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.74e7b9a2.js.map",
     "static/js/2.dbc4a972.chunk.js": "/portfolio/static/js/2.dbc4a972.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.dcf099e8.chunk.js": "/portfolio/static/js/3.dcf099e8.chunk.js",
     "static/js/3.dcf099e8.chunk.js.map": "/portfolio/static/js/3.dcf099e8.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.5260cfe2.chunk.css.map": "/portfolio/static/css/main.5260cfe2.chunk.css.map",
+    "static/css/main.bfdfa76b.chunk.css.map": "/portfolio/static/css/main.bfdfa76b.chunk.css.map",
     "static/js/2.dbc4a972.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dbc4a972.chunk.js.LICENSE.txt",
     "static/media/counter.1c5a6f57.jpg": "/portfolio/static/media/counter.1c5a6f57.jpg",
     "static/media/github.e8efa7f4.png": "/portfolio/static/media/github.e8efa7f4.png",
@@ -19,6 +19,7 @@
     "static/media/javascript-js-seeklogo.com.fd46ca41.svg": "/portfolio/static/media/javascript-js-seeklogo.com.fd46ca41.svg",
     "static/media/myPhoto.d20d5789.jpg": "/portfolio/static/media/myPhoto.d20d5789.jpg",
     "static/media/newsApp.f96aa3ff.jpg": "/portfolio/static/media/newsApp.f96aa3ff.jpg",
+    "static/media/prayer.889e52db.jpg": "/portfolio/static/media/prayer.889e52db.jpg",
     "static/media/react-seeklogo.com.ae626225.svg": "/portfolio/static/media/react-seeklogo.com.ae626225.svg",
     "static/media/sass-seeklogo.com.8351205a.svg": "/portfolio/static/media/sass-seeklogo.com.8351205a.svg",
     "static/media/socialNetwork.980ba1e6.jpg": "/portfolio/static/media/socialNetwork.980ba1e6.jpg",
@@ -32,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.74e7b9a2.js",
     "static/js/2.dbc4a972.chunk.js",
-    "static/css/main.5260cfe2.chunk.css",
-    "static/js/main.3b1be74b.chunk.js"
+    "static/css/main.bfdfa76b.chunk.css",
+    "static/js/main.f3aeb610.chunk.js"
   ]
 }
