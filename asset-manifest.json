@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bfdfa76b.chunk.css",
-    "main.js": "/portfolio/static/js/main.f3aeb610.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f3aeb610.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.f0db5875.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f0db5875.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.74e7b9a2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.74e7b9a2.js.map",
     "static/js/2.dbc4a972.chunk.js": "/portfolio/static/js/2.dbc4a972.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/portfolio/index.html",
     "static/css/main.bfdfa76b.chunk.css.map": "/portfolio/static/css/main.bfdfa76b.chunk.css.map",
     "static/js/2.dbc4a972.chunk.js.LICENSE.txt": "/portfolio/static/js/2.dbc4a972.chunk.js.LICENSE.txt",
+    "static/media/accelerist.eabc7386.jpg": "/portfolio/static/media/accelerist.eabc7386.jpg",
     "static/media/counter.1c5a6f57.jpg": "/portfolio/static/media/counter.1c5a6f57.jpg",
     "static/media/github.e8efa7f4.png": "/portfolio/static/media/github.e8efa7f4.png",
     "static/media/icons8-redux.0a4a6ca2.svg": "/portfolio/static/media/icons8-redux.0a4a6ca2.svg",
@@ -34,6 +35,6 @@
     "static/js/runtime-main.74e7b9a2.js",
     "static/js/2.dbc4a972.chunk.js",
     "static/css/main.bfdfa76b.chunk.css",
-    "static/js/main.f3aeb610.chunk.js"
+    "static/js/main.f0db5875.chunk.js"
   ]
 }
