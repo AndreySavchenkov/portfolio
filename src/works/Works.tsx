@@ -11,6 +11,7 @@ import newsApp from 'assets/image/newsApp.jpg'
 import table from 'assets/image/table.jpg'
 import trello from 'assets/image/trello.jpg';
 import prayer from 'assets/image/prayer.jpg'
+import accelerist from 'assets/image/accelerist.jpg'
 import {Slide} from "react-awesome-reveal";
 
 export const Works = () => {
@@ -23,6 +24,7 @@ export const Works = () => {
     const tableBackground = {backgroundImage: `url(${table}`,}
     const trelloBackground = {backgroundImage: `url(${trello}`,}
     const prayerBackground = {backgroundImage: `url(${prayer}`,}
+    const acceleristBackground = {backgroundImage: `url(${accelerist}`,}
 
     return (
         <Slide duration={2000}>
@@ -30,6 +32,11 @@ export const Works = () => {
                 <div className={`${styleContainer.container} ${style.container}`}>
                     <Title text={'Projects'}/>
                     <div className={style.worksContainer}>
+                        <Work link={'https://andreysavchenkov.github.io/accelerist/'}
+                              linkCode={'https://github.com/AndreySavchenkov/accelerist'}
+                              style={acceleristBackground}
+                              title={'Accelerist'}
+                              text={'React, TypeScript, Redux-Toolkit, Redux-Saga, Redux-persist, React Router Dom, React Final Form, Styled Components'}/>
                         <Work link={'https://www.youtube.com/watch?v=L2DFIVYFUcM'}
                               linkCode={'https://github.com/AndreySavchenkov/Prayer'}
                               style={prayerBackground}
