@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bfdfa76b.chunk.css",
-    "main.js": "/portfolio/static/js/main.f0db5875.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f0db5875.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.fc4b9eb4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fc4b9eb4.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.74e7b9a2.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.74e7b9a2.js.map",
     "static/js/2.dbc4a972.chunk.js": "/portfolio/static/js/2.dbc4a972.chunk.js",
@@ -20,6 +20,8 @@
     "static/media/javascript-js-seeklogo.com.fd46ca41.svg": "/portfolio/static/media/javascript-js-seeklogo.com.fd46ca41.svg",
     "static/media/myPhoto.d20d5789.jpg": "/portfolio/static/media/myPhoto.d20d5789.jpg",
     "static/media/newsApp.f96aa3ff.jpg": "/portfolio/static/media/newsApp.f96aa3ff.jpg",
+    "static/media/nextIcon.331efda6.png": "/portfolio/static/media/nextIcon.331efda6.png",
+    "static/media/nextJS.43546f31.jpg": "/portfolio/static/media/nextJS.43546f31.jpg",
     "static/media/prayer.889e52db.jpg": "/portfolio/static/media/prayer.889e52db.jpg",
     "static/media/react-seeklogo.com.ae626225.svg": "/portfolio/static/media/react-seeklogo.com.ae626225.svg",
     "static/media/sass-seeklogo.com.8351205a.svg": "/portfolio/static/media/sass-seeklogo.com.8351205a.svg",
@@ -35,6 +37,6 @@
     "static/js/runtime-main.74e7b9a2.js",
     "static/js/2.dbc4a972.chunk.js",
     "static/css/main.bfdfa76b.chunk.css",
-    "static/js/main.f0db5875.chunk.js"
+    "static/js/main.fc4b9eb4.chunk.js"
   ]
 }
