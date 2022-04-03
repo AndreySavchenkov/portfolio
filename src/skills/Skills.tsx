@@ -8,6 +8,7 @@ import typescriptIcon from 'assets/skill-icon/typescript-seeklogo.com.svg'
 import javascriptIcon from 'assets/skill-icon/javascript-js-seeklogo.com.svg'
 import scssIcon from 'assets/skill-icon/sass-seeklogo.com.svg'
 import reduxIcon from 'assets/skill-icon/icons8-redux.svg'
+import nextJSIcon from 'assets/skill-icon/nextIcon.png'
 import {Slide} from "react-awesome-reveal";
 
 export const Skills = () => {
@@ -37,6 +38,11 @@ export const Skills = () => {
                                iconPath={reduxIcon}
                                iconAlt={'icon for Redux'}
                                description={'A Predictable State Container for JS/TS Apps'}/>
+                        <Skill title={'Next.JS'}
+                               iconPath={nextJSIcon}
+                               iconAlt={'icon for Next.JS'}
+                               description={'The React Framework\n' +
+                               'for Production'}/>
                     </div>
                 </div>
             </div>

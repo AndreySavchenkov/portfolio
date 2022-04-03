@@ -12,6 +12,7 @@ import table from 'assets/image/table.jpg'
 import trello from 'assets/image/trello.jpg';
 import prayer from 'assets/image/prayer.jpg'
 import accelerist from 'assets/image/accelerist.jpg'
+import nextJS from 'assets/image/nextJS.jpg'
 import {Slide} from "react-awesome-reveal";
 
 export const Works = () => {
@@ -25,6 +26,7 @@ export const Works = () => {
     const trelloBackground = {backgroundImage: `url(${trello}`,}
     const prayerBackground = {backgroundImage: `url(${prayer}`,}
     const acceleristBackground = {backgroundImage: `url(${accelerist}`,}
+    const nextJSBackground = {backgroundImage: `url(${nextJS}`,}
 
     return (
         <Slide duration={2000}>
@@ -47,6 +49,11 @@ export const Works = () => {
                               style={trelloBackground}
                               title={'Custom Trello'}
                               text={'React, TypeScript, Redux-Toolkit, Styled Components, Redux-persist'}/>
+                        <Work link={'https://next-js-six-olive.vercel.app/'}
+                              linkCode={'https://github.com/AndreySavchenkov/Next.js'}
+                              style={nextJSBackground}
+                              title={'Little Test App On Next.JS'}
+                              text={'Next.JS'}/>
                         <Work link={'https://andreysavchenkov.github.io/Social-Network/'}
                               linkCode={'https://github.com/AndreySavchenkov/Social-Network'}
                               style={socialBackground}
