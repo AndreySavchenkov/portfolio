@@ -1,14 +1,14 @@
-import React from "react";
+import React, { FC } from 'react';
 import style from './Title.module.scss';
 
-type TitleType = {
-    text: string
+type Props = {
+  text: string
 }
 
-export const Title = (props: TitleType) => {
-    return (
-        <div className={style.title}>
-            <h2>{props.text}</h2>
-        </div>
-    )
-}
+export const Title: FC<Props> = ({ text }) => {
+  return (
+    <div className={style.title}>
+      <h2>{text}</h2>
+    </div>
+  );
+};
